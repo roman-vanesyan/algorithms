@@ -60,7 +60,7 @@ class DoublyLinkedList<E> : public LinkedList<E>
         head = element;
     }
 
-    void prepend(element)
+    void prepend(Element *element)
     {
         if (head == nullptr)
         {
